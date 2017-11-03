@@ -1,1 +1,4 @@
-document.write("it works, what works");
+require("./style.css");
+document.write(require("./content"));
+
+console.table(["sum"]);
